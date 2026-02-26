@@ -5,6 +5,8 @@ import Login from './pages/Login'
 import DashboardLayout from './layout/DashboardLayout'
 import Tecnicos from './pages/Tecnicos'
 import FormularioTecnico from './pages/FormularioTecnico'
+import Clientes from './pages/Clientes'
+import FormularioCliente from './pages/FormularioCliente'
 
 function App() {
   return (
@@ -26,6 +28,10 @@ function App() {
               <Route path="tecnicos" element={<Tecnicos />} />
               <Route path="tecnicos/crear" element={<FormularioTecnico />} />
               <Route path="tecnicos/editar/:id" element={<FormularioTecnico />} />
+              {/* --- RUTAS DE CLIENTES --- */}
+              <Route path="clientes" element={<Clientes />} />
+              <Route path="clientes/crear" element={<FormularioCliente />} />
+              <Route path="clientes/editar/:id" element={<FormularioCliente />} />
           </Route>
         </Routes>
       </AuthProvider>
