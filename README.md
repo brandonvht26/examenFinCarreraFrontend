@@ -1,16 +1,23 @@
-# React + Vite
+# 🖥️ Sobre el componente Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+El presente componente Frontend fue desarrollado como parte de una evaluación, mismo que comprende un caso de estudio basado en un Sistema de Tickets.
+<img width="1920" height="945" alt="screencapture-tecno-sys-netlify-app-2026-02-26-10_40_48" src="https://github.com/user-attachments/assets/59d9f103-886f-4484-9ae8-a52ec0e26f19" />
 
-Currently, two official plugins are available:
+# 🙍🏻‍♂️ Credenciales
+Debido a que el exámen no solicitaba explícitamente un módulo de registro (y dado a que hacerlo no conllevaría puntos extra según las explicaciones previas al exámen) se optó por generar un usuario con acceso a la plataforma generado desde un endpoint del backend pero que no es consumido en el front (la otra vía sería generarlo directamente en la base de datos). En cualquier caso, las credenciales válidas son:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Correo: tester@test.com
+Contraseña: 123
 
-## React Compiler
+# 📋 Sobre las pruebas de Rendimiento
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚡PageSpeed
+https://pagespeed.web.dev/analysis/https-tecno-sys-netlify-app/oidt1jf3p3?form_factor=desktop
 
-## Expanding the ESLint configuration
+## Responsively App
+<img width="1916" height="852" alt="image" src="https://github.com/user-attachments/assets/4273fdb5-48da-4d12-94ac-afcf6948a20a" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Otros contenidos
+
+## 💎 Repositorio Backend
+https://github.com/ArdannyR/Examen_FC_Back_25B.git
