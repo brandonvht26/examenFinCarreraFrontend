@@ -3,6 +3,8 @@ import { AuthProvider } from './context/AuthProvider'
 
 import Login from './pages/Login'
 import DashboardLayout from './layout/DashboardLayout'
+import Tecnicos from './pages/Tecnicos'
+import FormularioTecnico from './pages/FormularioTecnico'
 
 function App() {
   return (
@@ -20,6 +22,10 @@ function App() {
                       <p className='text-xl text-slate-500 mt-4'>Seleccione un módulo en el menú lateral para gestionar los tickets de soporte.</p>
                   </div>
               } />
+              {/* --- RUTAS DE TÉCNICOS --- */}
+              <Route path="tecnicos" element={<Tecnicos />} />
+              <Route path="tecnicos/crear" element={<FormularioTecnico />} />
+              <Route path="tecnicos/editar/:id" element={<FormularioTecnico />} />
           </Route>
         </Routes>
       </AuthProvider>
