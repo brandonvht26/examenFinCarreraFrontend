@@ -1,6 +1,8 @@
 # 🖥️ Sobre el componente Frontend
 
-El presente componente Frontend fue desarrollado como parte de una evaluación, mismo que comprende un caso de estudio basado en un Sistema de Tickets.
+El presente componente Frontend fue desarrollado como parte de una evaluación, mismo que comprende un caso de estudio basado en un Sistema de Tickets. Los encargados de este ejercicio son:
+💫 Brandon Huera (Front) 
+🧠 Ardanny Romero (Back)
 
 <img width="1920" height="945" alt="screencapture-tecno-sys-netlify-app-2026-02-26-10_40_48" src="https://github.com/user-attachments/assets/59d9f103-886f-4484-9ae8-a52ec0e26f19" />
 
