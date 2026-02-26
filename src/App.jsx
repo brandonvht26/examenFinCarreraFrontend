@@ -7,6 +7,8 @@ import Tecnicos from './pages/Tecnicos'
 import FormularioTecnico from './pages/FormularioTecnico'
 import Clientes from './pages/Clientes'
 import FormularioCliente from './pages/FormularioCliente'
+import Tickets from './pages/Tickets'
+import FormularioTicket from './pages/FormularioTicket'
 
 function App() {
   return (
@@ -32,6 +34,10 @@ function App() {
               <Route path="clientes" element={<Clientes />} />
               <Route path="clientes/crear" element={<FormularioCliente />} />
               <Route path="clientes/editar/:id" element={<FormularioCliente />} />
+              {/* --- RUTAS DE TICKETS --- */}
+              <Route path="tickets" element={<Tickets />} />
+              <Route path="tickets/crear" element={<FormularioTicket />} />
+              <Route path="tickets/editar/:id" element={<FormularioTicket />} />
           </Route>
         </Routes>
       </AuthProvider>
